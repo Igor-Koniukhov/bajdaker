@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0de9ff4-5f0d-4828-ae62-e4afede170d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iPI67shCuQUOot4BwuES67Sao6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images/_svg-file" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\#Projects\bajdaker\app\scss" />
+      <recent name="D:\#Projects\bajdaker\app\js" />
+      <recent name="D:\#Projects\bajdaker\app\images" />
+      <recent name="D:\#Projects\bajdaker\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#Projects\bajdaker\app\images\_svg-file" />
+      <recent name="D:\#Projects\bajdaker\app\images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0de9ff4-5f0d-4828-ae62-e4afede170d2" name="Default Changelist" comment="" />
+      <created>1601802621652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601802621652</updated>
+      <workItem from="1601802622932" duration="68000" />
+      <workItem from="1601802698390" duration="1672000" />
+      <workItem from="1601804432417" duration="48000" />
+      <workItem from="1601804509435" duration="615000" />
+      <workItem from="1601805164615" duration="16033000" />
+      <workItem from="1601882652026" duration="5966000" />
+      <workItem from="1601892535289" duration="472000" />
+      <workItem from="1601893091827" duration="5210000" />
+      <workItem from="1601971740475" duration="6710000" />
+      <workItem from="1601979188635" duration="8079000" />
+      <workItem from="1601995678181" duration="566000" />
+      <workItem from="1602042817133" duration="7128000" />
+      <workItem from="1602050755588" duration="9522000" />
+      <workItem from="1602060919031" duration="62000" />
+      <workItem from="1602061093297" duration="326000" />
+      <workItem from="1602061526298" duration="2463000" />
+      <workItem from="1602064164607" duration="3844000" />
+      <workItem from="1602068348643" duration="2082000" />
+      <workItem from="1602070486460" duration="185000" />
+      <workItem from="1602070723866" duration="2581000" />
+      <workItem from="1602073507282" duration="3242000" />
+      <workItem from="1602084581715" duration="22000" />
+      <workItem from="1602084909792" duration="306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="365" y="162" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602047455872">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="365" y="162" key="#com.intellij.fileTypes.FileTypeChooser/209.-768.1366.768/0.0.1280.720@0.0.1280.720" timestamp="1602047455872" />
+    <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602058774978">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/209.-768.1366.768/0.0.1280.720@0.0.1280.720" timestamp="1602058774978" />
+    <state x="310" y="139" key="EditFileWatcherDialog" timestamp="1601893973608">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="310" y="139" key="EditFileWatcherDialog/209.-768.1366.768/0.0.1280.720@0.0.1280.720" timestamp="1601893973608" />
+    <state x="142" y="5" key="SettingsEditor" timestamp="1601808572734">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="5" key="SettingsEditor/209.-768.1366.768/0.0.1280.720@0.0.1280.720" timestamp="1601808572734" />
+    <state x="297" y="161" key="run.anything.popup" timestamp="1601995765785">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="297" y="161" key="run.anything.popup/209.-768.1366.768/0.0.1280.720@0.0.1280.720" timestamp="1601995765785" />
+  </component>
+</project>
