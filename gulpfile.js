@@ -10,6 +10,8 @@ let paths = {
 
 	scripts: {
 		src: [
+			'app/libs/swiper/swiper.js',
+			'app/libs/likely/likely.js',
 			'node_modules/jquery/dist/jquery.min.js', // npm vendor example (npm i --save-dev jquery)
 			baseDir + '/js/app.js' // app.js. Always at the end
 		],

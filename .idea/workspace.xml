@@ -1,7 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0de9ff4-5f0d-4828-ae62-e4afede170d2" name="Default Changelist" comment="" />
+    <list default="true" id="c0de9ff4-5f0d-4828-ae62-e4afede170d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_var.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/Earth - Copy - Copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/Earth - Copy - Copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/Earth - Copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/Earth - Copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/Earth.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/Earth.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/anchor - red.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/anchor - red.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/anchor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/anchor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/boat-svg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/boat-svg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/boat-with-birds.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/boat-with-birds.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/canoe-color-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/canoe-color-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/canoe-color.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/canoe-color.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/canoe-red-grower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/canoe-red-grower.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/canoe-white-grower - Copy - Copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/canoe-white-grower - Copy - Copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/canoe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/canoe.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/cell.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/cell.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/dolfin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/dolfin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/hartshape.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/hartshape.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/lighthouse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/lighthouse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/line-wave.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/line-wave.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/locachion-yellow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/locachion-yellow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/location-green.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/location-green.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/location-red.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/location-red.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/mech-ship.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/mech-ship.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/menu-icon-red.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/menu-icon-red.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/menu-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/menu-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/paddle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/paddle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/paddlewheel_boat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/paddlewheel_boat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/sailboat2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/sailboat2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/sailboat3 - Copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/sailboat3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/sailing-boat-water.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/sailing-boat-water.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/search-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/search-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/shark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/shark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/shippirate.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/shippirate.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/_svg-file/tree.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/svg-file/tree.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/Earth - Copy - Copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/Earth - Copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/Earth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/anchor - red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/anchor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/boat-svg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/boat-with-birds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/canoe-color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/canoe-red-grower.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/canoe-white-grower - Copy - Copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/canoe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/dolfin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/hartshape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/lighthouse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/locachion-yellow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/location-green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/location-red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/mech-ship.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/paddlewheel_boat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/sailboat2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dest/snandinav-pattern.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +99,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iPI67shCuQUOot4BwuES67Sao6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,20 +113,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images/_svg-file" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\#Projects\bajdaker\app\scss" />
-      <recent name="D:\#Projects\bajdaker\app\js" />
-      <recent name="D:\#Projects\bajdaker\app\images" />
-      <recent name="D:\#Projects\bajdaker\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#Projects\bajdaker" />
       <recent name="D:\#Projects\bajdaker\app\images\_svg-file" />
       <recent name="D:\#Projects\bajdaker\app\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\#Projects\bajdaker\app\images" />
+      <recent name="D:\#Projects\bajdaker\app\images\src" />
+      <recent name="D:\#Projects\bajdaker\app" />
+      <recent name="D:\#Projects\bajdaker\app\scss" />
+      <recent name="D:\#Projects\bajdaker\app\js" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -72,12 +163,42 @@
       <workItem from="1602070723866" duration="2581000" />
       <workItem from="1602073507282" duration="3242000" />
       <workItem from="1602084581715" duration="22000" />
-      <workItem from="1602084909792" duration="306000" />
+      <workItem from="1602084909792" duration="1481000" />
+      <workItem from="1602139661323" duration="756000" />
+      <workItem from="1602141583419" duration="63000" />
+      <workItem from="1602141704175" duration="9509000" />
+      <workItem from="1602151393347" duration="16111000" />
+      <workItem from="1602168360638" duration="3686000" />
+      <workItem from="1602172275069" duration="54000" />
+      <workItem from="1602172407621" duration="616000" />
+      <workItem from="1602173367325" duration="322000" />
+      <workItem from="1602173746302" duration="4138000" />
+      <workItem from="1602181179834" duration="674000" />
+      <workItem from="1602218964305" duration="5430000" />
+      <workItem from="1602433681392" duration="11000" />
+      <workItem from="1602489996634" duration="17374000" />
+      <workItem from="1602509593874" duration="229000" />
+      <workItem from="1602509839953" duration="9454000" />
+      <workItem from="1602531400077" duration="6446000" />
+      <workItem from="1602567545310" duration="190000" />
+      <workItem from="1602567913982" duration="1649000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="365" y="162" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602047455872">
@@ -96,9 +217,13 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="5" key="SettingsEditor/209.-768.1366.768/0.0.1280.720@0.0.1280.720" timestamp="1601808572734" />
-    <state x="297" y="161" key="run.anything.popup" timestamp="1601995765785">
+    <state x="297" y="161" key="run.anything.popup" timestamp="1602145979445">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="161" key="run.anything.popup/209.-768.1366.768/0.0.1280.720@0.0.1280.720" timestamp="1601995765785" />
+    <state x="297" y="161" key="run.anything.popup/209.-768.1366.768/0.0.1280.720@0.0.1280.720" timestamp="1602145979445" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1602531819813">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/209.-768.1366.768/0.0.1280.720@0.0.1280.720" timestamp="1602531819813" />
   </component>
 </project>
