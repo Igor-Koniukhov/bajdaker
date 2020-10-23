@@ -1,0 +1,18 @@
+<section class="slider-section section-advert home-section">
+	<div class="container-cust"><h2 class="section-title ">{{ site.category_addverts }}</h2></div>
+
+	<div class="swiper-container swiper-container_custom ">
+
+		<div class="swiper-button-next swiper-button_custom"></div>
+		<div class="swiper-button-prev swiper-button_custom"></div>
+
+		<div class="swiper-wrapper swiper-wrapper_custom">
+
+{% for post in site.categories.addverts limit: 20 offset: 0 %}
+{% include /addverts-section-item.html %}
+{% endfor %}
+
+		</div>
+		<div class="swiper-pagination swiper-pagination_left-red-active"></div>
+	</div>
+</section>

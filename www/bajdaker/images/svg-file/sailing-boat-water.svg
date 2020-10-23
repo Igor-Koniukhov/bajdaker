@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 50 50" height="50px" id="Layer_1" version="1.1" viewBox="0 0 50 50" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <rect fill="none" height="50" width="50" />
+    <path class="wave" stroke="#3060c3" stroke-width="2" d="  M49,44.646c-0.494,0.174-1.091,0.296-1.846,0.296c-1.538,0-3.902-0.42-5.539-1.71c-1.637,1.29-4,1.71-5.538,1.71  s-3.901-0.42-5.539-1.71c-1.637,1.29-4,1.71-5.538,1.71s-3.901-0.42-5.539-1.71c-1.637,1.29-4,1.71-5.538,1.71  s-3.901-0.42-5.538-1.71c-1.637,1.29-4.001,1.71-5.539,1.71c-0.69,0-1.291-0.062-1.846-0.147" fill="#7c9ff8" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="wave2" stroke="#3060c3" stroke-width="2" d="  M49,48.646c-0.494,0.174-1.091,0.296-1.846,0.296c-1.538,0-3.902-0.42-5.539-1.71c-1.637,1.29-4,1.71-5.538,1.71  s-3.901-0.42-5.539-1.71c-1.637,1.29-4,1.71-5.538,1.71s-3.901-0.42-5.539-1.71c-1.637,1.29-4,1.71-5.538,1.71  s-3.901-0.42-5.538-1.71c-1.637,1.29-4.001,1.71-5.539,1.71c-0.69,0-1.291-0.062-1.846-0.147 " fill="#7c9ff8" stroke-linecap="round" stroke-linejoin="round"  />
+    <path d=" M32.043,43.981C36.004,42.681,41.146,40.139,45,36c0.983-1.057,1.779-2,0-2H7c-1.033,0-2,0.969-2,2c0,3.79,7.469,6.832,12.025,8.229  " fill="#4b87be" stroke="#4b87be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    <path d="  M42,34l-16-4c0,0,5-7,2-23C44,21,42,34,42,34z" fill="#e45f25" stroke="#e45f25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.0241" />
+    <path class="sail" d="  M25,33.863L7,28c0,0,12.4-7.202,18-24V33.863z" fill="#e0bf54" stroke="#e0bf55" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    <style>
+        .wave {
+            stroke-dasharray: 15;
+            stroke-dashoffset: 14;
+            animation: dash 5s linear forwards infinite;
+        }
+
+        .wave2 {
+            stroke-dasharray: 10;
+            stroke-dashoffset: 10;
+            animation: dash 5s linear backwards infinite;
+        }
+
+        @keyframes dash {
+            from {
+                stroke-dashoffset: 100;
+            }
+
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+
+    </style>
+</svg>

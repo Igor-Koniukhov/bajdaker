@@ -1,0 +1,36 @@
+{% include /head-category.html %}
+{% include /first-position-header.html %}
+{% include /header-second-position.html %}
+{% include /header-third-position.html %}
+<main>
+
+	<div class="main-page-wrapper">
+		<div class="cat-list">
+			<div class="container-cust">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="wrapper-content">
+							<div class="all-posts-header">{{ page.title }}</div>
+							<div class="cat-list-wrap">
+{% for post in paginator.posts offset: 0 %}
+{% include /category-list-item.html %}
+{% endfor %}
+							</div>
+
+						</div>
+{% include /pagination-first.html %}
+					</div>
+
+					<div class="col-md-4">
+						{% include /main-aside.html %}
+					</div>
+				</div>
+{% include /pagination-second.html %}
+			</div>
+		</div>
+
+	</div>
+</main>
+{% include /footer.html %}
+
+

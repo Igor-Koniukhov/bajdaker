@@ -1,0 +1,19 @@
+<section class="type-one section-about-trip home-section">
+	<div class="container-cust">
+		<h2 class="section-title">{{ site.category_trips }}</h2>
+		<div class="content-wrapper">
+			<div class="row">
+
+{% for post in site.categories.trips limit: 2 offset: 0 %}
+{% include /section-about-trip-1-item.html %}
+{% endfor %}
+
+
+{% for post in site.categories.trips limit: 3 offset: 2 %}
+{% include /section-about-trip-2-item.html %}
+{% endfor %}
+
+			</div>
+		</div>
+	</div>
+</section>

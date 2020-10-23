@@ -1,0 +1,15 @@
+<section class="second-type about-canoe home-section">
+	<div class="container-cust">
+		<h2 class="section-title">{{ site.category_about-canoe }} </h2>
+		<div class="content-wrapper">
+			<div class="row">
+
+{% for post in site.categories.about-canoe limit:4 offset: 0 %}
+{% include /about-canoe-section-1-item.html %}
+{% endfor %}
+
+
+			</div>
+		</div>
+	</div>
+</section>

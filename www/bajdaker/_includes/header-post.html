@@ -1,0 +1,29 @@
+<header class="page-header overlay" style="background-image: url({{ page.image }})">
+	<div class="page-header-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 col-md-8">
+					<a class="page-category-link" href="{{ site.category_dir }}/{{ page.categories }}">{{ page.catname }}</a>
+{% if page.catname == 'Статьи' or page.catname == 'ЧЗВ' %}
+					<span class="date">{{ page.date | date: '%d' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%Y' }}</span>
+{% endif %}
+					<h1>{{ page.title }}</h1>
+{% if page.catname == 'Статьи' or page.catname == 'ЧЗВ' %}
+<div class="item-social">
+	<div class="item-comments" title="Количество комментариев">
+		<i class="fa fa-comment"></i><a class="item-comments-count"
+			href="{{ page.url }}#disqus_thread"></a>
+	</div>
+	<div class="fa fa-share-alt" title="Поделиться в соц. сетях"></div>
+	<div class="likely likely-custom" data-media="{{ site.url }}/{{ page.image }}"
+			data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}">
+		<div class="facebook" title="Поделиться в Facebook">Facebook</div>
+		<div class="twitter" title="Поделиться в Twitter">Twitter</div>
+	</div>
+</div>
+{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

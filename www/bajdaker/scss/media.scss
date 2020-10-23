@@ -1,0 +1,55 @@
+@import "config";
+/*==========  Desktop First  ==========*/
+// ≥1200px
+@include media-breakpoint-down(lg) {
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+	.swiper-button-next.swiper-button_custom,
+	.swiper-button-prev.swiper-button_custom {
+		display: none;
+	}
+	.swiper-container .swiper-button-next_red:after,
+	.swiper-container .swiper-button-prev_red:after,
+	.top-menu_desktop {
+		display: none;
+	}
+	.nav-footer {
+		display: none;
+	}
+	.mobile-menu-button {
+		display: block;
+	}
+	.header__title a {
+		font-size: 53px;
+	}
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+	.header__title_celtic {
+		font-size: 40px;
+	}
+}
+
+/*==========  Mobile First  ==========*/
+// ≤576px
+@include media-breakpoint-up(sm) {
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+}

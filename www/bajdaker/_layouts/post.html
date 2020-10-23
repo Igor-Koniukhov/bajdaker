@@ -1,0 +1,64 @@
+{% include /head-post.html %}
+{% include /first-position-header.html %}
+{% include /header-second-position.html %}
+{% include /header-third-position.html %}
+<main>
+{% if page.trigger == 'form' %}
+{% include /form.html %}
+{% endif %}
+	<div class="article-content">
+		<div class="container-cust">
+			<nav class="breadcrumbs">
+				<ul>
+					<li><a href="{{ site.baseurl }}">Главная<span>&#10147;</span><span>&#10147;</span> </a></li>
+					<li><a href="{{ site.category_dir }}/{{ page.categories }}">{{ page.catname }}<span>&#10147;</span><span>&#10147;</span></a>
+					</li>
+					<li class="active">{{ page.title }}</li>
+				</ul>
+			</nav>
+			<div class="row">
+				<div class="col-md-8">
+					<div class="wrapper-content">
+						<article class="main-article">
+							<div class="article-body">
+								<!--<div class="ad article-top-ad">
+								</div>-->
+								{{ content }}
+							</div>
+							<div class="likely-on-page">
+								<div class="likely" data-media="{{ page.image }}" data-title="{{ page.title }}"
+										data-url="{{ site.url }}{{ page.url }}">
+									<div class="facebook" title="Поделиться в Facebook">Facebook</div>
+									<div class="twitter" title="Поделиться в Twitter">Twitter</div>
+									<div class="telegram" title="Отправить">Telegram</div>
+									<div class="linkedin" title="Отправить">Linkedin</div>
+								</div>
+							</div>
+							<!--<div class="ad article-top-ad">
+							</div>-->
+							<div class="read-more">
+								<div class="read-more-header">Из последнего в категории {{ page.catname }}:</div>
+								<ul>
+									{% capture related_posts %}{{ page.categories }}{% endcapture %}
+									{% assign collection = site.categories[related_posts] %}
+									{% for article in collection limit: 6 %}
+									{% unless page.url == article.url %}
+									<li><a href="{{ article.url }}">{{ article.title }}</a></li>
+									{% endunless %}
+									{% endfor %}
+								</ul>
+							</div>
+							<div class="comments">
+								{% include /comments.html %}
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="col-md-4">
+					{% include /main-aside.html %}
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+{% include /footer.html %}

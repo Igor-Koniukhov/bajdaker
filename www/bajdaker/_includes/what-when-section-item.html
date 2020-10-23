@@ -1,0 +1,24 @@
+<div class="col-md-6 ">
+	<div class="type-one__item type__one-item_position-1">
+		<div class="text">
+			<h3>{{ post.title }}</h3>
+			<div class="row"><span class="type-one__date"> дата: <b>{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</b>
+								</span>
+				<div class="item-comments" title="Количество комментариев">
+					<a class="item-comments-count" href="{{ post.url }}#disqus_thread"></a>
+				</div>
+			</div>
+			<a class="overlay" href="{{ post.url }}"></a>
+			<p><img alt="image" class="img-float col-sm-6 img-responsiv"
+					src="{{ post.image }}">
+			{{ post.content | strip_html | truncatewords: 30 }}</p>
+		</div>
+		<div class="item-social">
+			<div class="likely likely-custom" data-url="{{ site.url }}{{ post.url }}" data-media="{{ site.url }}/{{ post.image }}" data-title="{{ post.title }}">
+				<div class="facebook" title="Поделиться в Facebook">Facebook</div>
+				<div class="twitter" title="Поделиться в twitter">Twitter</div>
+				<div class="telegram" title="Поделиться в telegram">Telegram</div>
+			</div>
+		</div>
+	</div>
+</div>

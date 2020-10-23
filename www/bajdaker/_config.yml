@@ -1,0 +1,47 @@
+
+
+title: bajdaker
+name: bajdaker.com.ua
+email: ikoniukhov@gmail.com
+description: Описание маршрутов, отчеты о сплавах и походах, описание байдарок, каное, рафтов, плотов
+themecolor: #202225
+imagehome: img/dest/canoe/1.jpg
+imagetitle: img/dest/svg-file/canoe-color.svg
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://bajdaker.com.ua/"
+
+
+
+plugins: [jekyll-paginate-v2]
+category_dir: blog
+pagination:
+  enabled: true
+  per_page: 7
+  title: ':title - Страница :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+exclude: ['node_modules', 'gulpfile.js', 'package.json', 'package-lock.json', 'js/app.js', 'npm-debug.log', 'css/main.scss','**/Thumbs.db', 'libs', 'styl']
+
+
+
+
+
+
+
+copyright: 'Копирование контента и размещение на других сайтах запрещено.'
+category_trips: 'Наши путешествия: Сплавы, походы, выезды.'
+category_about-canoe: 'О посудинах: байдарки, катамараны, плоты и прочее.'
+category_garage: 'Гараж: О железном коне и не только'
+category_what-when: 'Что, Где, Когда: Рубрика достойная внимания.'
+category_addverts: 'Объявления: Обмен, Купить, Продать.'
+nav1: 'Наши путешествия'
+nav2: 'О посудинах'
+nav3: 'Гараж'
+nav4: 'Что, Где, Когда'
+nav5: 'Объявления'
+nav6: 'О нас'

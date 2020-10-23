@@ -1,0 +1,36 @@
+{% include /head-search.html %}
+{% include /first-position-header.html %}
+{% include /header-second-position.html %}
+{% include /header-third-position.html %}
+<main>
+	<div class="article-content">
+		<div class="container-cust">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="wrapper-content">
+						<article class="main-article">
+							<div class="article-body pb-lg-5 pb-md-4 pb-sm-1">
+								<h1>Результаты поиска:</h1>
+								<div id="cse-search-results"></div>
+								<script type="text/javascript">
+									var googleSearchIframeName = "cse-search-results";
+									var googleSearchFormName = "cse-search-box";
+									var googleSearchFrameWidth = 800;
+									var googleSearchDomain = "www.google.com.ua";
+									var googleSearchPath = "/cse";
+								</script>
+								<script type="text/javascript" src="https://www.google.com/afsonline/show_afs_search.js"></script>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="col-md-4">
+					{% include /search-aside.html %}
+				</div>
+			</div>
+		</div>
+	</div>
+
+</main>
+
+{% include /footer.html %}

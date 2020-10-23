@@ -1,0 +1,30 @@
+<div class="swiper-slide swiper-slide_custom-trip ">
+	<a class="slide-link" href="{{ post.url }}"></a>
+	<div class="swiper-slide__wrapper">
+		<div class="container-fluid">
+			<div class="col-12">
+				<div class="slide-text-wrapper">
+					<h3 class="title-slider"> {{ post.title }} </h3>
+					<p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+					<div class="row">
+									<span class="second-type__date"> дата: {{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}
+								</span>
+						<div class="item-comments" title="Количество комментариев">
+							<a class="item-comments-count" href="{{ post.url }}#disqus_thread"></a>
+						</div>
+						<div class="item-social">
+							<div class="likely likely-custom" data-url="{{ site.url }}{{ post.url }}" data-media="{{ site.url }}/{{ post.image }}" data-title="{{ post.title }}">
+								<div class="facebook" title="Поделиться в Facebook">Facebook</div>
+								<div class="twitter" title="Поделиться в twitter">Twitter</div>
+								<div class="telegram" title="Поделиться в telegram">Telegram</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12">
+				<img class="img-responsiv" alt="{{ post.description }}" src="{{ post.image }}">
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+<section class="type-one what-when-were home-section">
+	<div class="container-cust">
+		<h2 class="section-title">{{ site.category_what-when }}</h2>
+		<div class="content-wrapper">
+			<div class="row">
+
+{% for post in site.categories.what-when limit: 4 offset: 0 %}
+{% include /what-when-section-item.html %}
+{% endfor %}
+
+
+			</div>
+		</div>
+	</div>
+</section>
