@@ -1,41 +1,50 @@
-<section class="contact-section">
-	<div class="container-cust ">
-		<div class="row ">
-			<div class="col-9 mx-auto">
-				<div class="wrapper-form">
-					<form>
-						<div class="form-group">
-							<label for="exampleFormControlInput1">Email address</label>
-							<input class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
-									type="email">
-						</div>
-						<div class="form-group">
-							<label for="exampleFormControlSelect1">Example select</label>
-							<select class="form-control" id="exampleFormControlSelect1">
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<label for="exampleFormControlSelect2">Example multiple select</label>
-							<select class="form-control" id="exampleFormControlSelect2" multiple>
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<label for="exampleFormControlTextarea1">Example textarea</label>
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
-						</div>
-					</form>
-				</div>
+<div class="popup-wrapper ">
+
+	<div class="container-fluid no-gutters padding-none ">
+
+		<div class="form-wrapper d-none ">
+			<div class="cancel"></div>
+			<div class="box">
+
+				<form enctype="multipart/form-data" id="ajax-contact-form" method="post">
+
+					<div class="form-group">
+						<label for="contactOwner">E-mail владельца:</label>
+						<input id="contactOwner" name="contactOwner" required type="email">
+					</div>
+
+					<div class="form-group">
+						<label for="nameFF">Имя:</label>
+						<input id="nameFF" name="nameFF" required type="text">
+					</div>
+					<div class="form-group">
+						<label for="surnameFF">Фамилия:</label>
+						<input id="surnameFF" name="surnameFF" required type="text">
+					</div>
+
+					<div class="form-group">
+						<label for="contactFF">Ваш E-mail:</label>
+						<input id="contactFF" name="contactFF" required type="email">
+					</div>
+
+					<div class="form-group">
+						<label for="telFF">Телефон:</label>
+						<input id="telFF" name="telFF" required type="tel">
+					</div>
+					<div class="form-group">
+						<label for="projectFF">Сообщение</label>
+						<textarea cols="40" id="projectFF" name="projectFF" rows="3"></textarea>
+					</div>
+					<div class="control-file">
+						<label for="fileFF">Прикрепить файл:</label>
+						<input id="fileFF" name="fileFF" type="file">
+					</div>
+					<button class="btn" id="submitFF" type="submit">Отправить сообщение</button>
+				</form>
+
+
 			</div>
+
 		</div>
 	</div>
-</section>
+</div>

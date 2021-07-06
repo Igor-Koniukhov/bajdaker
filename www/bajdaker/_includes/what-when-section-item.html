@@ -9,9 +9,16 @@
 				</div>
 			</div>
 			<a class="overlay" href="{{ post.url }}"></a>
-			<p><img alt="image" class="img-float col-sm-6 img-responsiv"
-					src="{{ post.image }}">
-			{{ post.content | strip_html | truncatewords: 30 }}</p>
+			<p>
+{% if post.media == 'video'  %}
+{% include /video.html %}
+{% endif %}
+
+{% if post.media == 'img' %}
+{% include /image.html %}
+{% endif %}
+
+{{ post.content | strip_html | truncatewords: 30 }}</p>
 		</div>
 		<div class="item-social">
 			<div class="likely likely-custom" data-url="{{ site.url }}{{ post.url }}" data-media="{{ site.url }}/{{ post.image }}" data-title="{{ post.title }}">

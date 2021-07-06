@@ -3,6 +3,10 @@
 {% include /header-second-position.html %}
 {% include /header-third-position.html %}
 <main>
+{% if page.category == 'addverts' %}
+{% include /form.html %}
+{% include /button-form-trigger.html %}
+{% endif %}
 
 	<div class="main-page-wrapper">
 		<div class="cat-list">
@@ -10,17 +14,15 @@
 				<div class="row">
 					<div class="col-md-8">
 						<div class="wrapper-content">
-							<div class="all-posts-header">{{ page.title }}</div>
+							<h2 class="all-posts-header">{{ page.title }}</h2>
 							<div class="cat-list-wrap">
 {% for post in paginator.posts offset: 0 %}
 {% include /category-list-item.html %}
 {% endfor %}
 							</div>
-
 						</div>
 {% include /pagination-first.html %}
 					</div>
-
 					<div class="col-md-4">
 						{% include /main-aside.html %}
 					</div>
@@ -28,8 +30,8 @@
 {% include /pagination-second.html %}
 			</div>
 		</div>
-
 	</div>
+{% include /roll-up-button.html %}
 </main>
 {% include /footer.html %}
 

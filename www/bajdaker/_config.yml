@@ -1,11 +1,9 @@
-
-
 title: bajdaker
 name: bajdaker.com.ua
 email: ikoniukhov@gmail.com
-description: Описание маршрутов, отчеты о сплавах и походах, описание байдарок, каное, рафтов, плотов
+description: Описание маршрутов, отчеты о сплавах и походах, описание байдарок, каное, рафтов, плотов, походы, водный туризм, обмен снаряжения, бесплатные объявления, байдарки, рафты, каное, велосипеды, байки
 themecolor: #202225
-imagehome: img/dest/canoe/1.jpg
+imagehome: img/welcome.jpg
 imagetitle: img/dest/svg-file/canoe-color.svg
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://bajdaker.com.ua/"
@@ -45,3 +43,20 @@ nav3: 'Гараж'
 nav4: 'Что, Где, Когда'
 nav5: 'Объявления'
 nav6: 'О нас'
+
+soc-garage: '<div class="container-cust">
+                <div class="nav-soc-wrapper">
+                   <div class="row justify-content-center">
+                      <nav class="nav-soc">
+                         <ul class="nav-soc__list">
+                            <li class="nav-soc__item"><a class="nav-soc__link" href="https://www.facebook.com/OlekcandrBondarenko"
+                                    style="background-image: url(images/dest/facebook.png)"></a></li>
+                            <li class="nav-soc__item"><a class="nav-soc__link" href="https://www.instagram.com/abondarenko_77/"
+                                    style="background-image: url(images/dest/instagr.png)"></a></li>
+                            <li class="nav-soc__item"><a class="nav-soc__link" href="https://www.youtube.com/user/210411302"
+                                    style="background-image: url(images/dest/youtub.png)"></a></li>
+                         </ul>
+                      </nav>
+                   </div>
+                </div>
+             </div>'

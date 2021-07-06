@@ -9,10 +9,13 @@
 					</div>
 				</div>
 				<a class="overlay" href="{{ post.url }}"></a>
-				<img alt="image" class="img-float col-sm-6 img-responsiv"
-						src="{{ post.thumb }}">
+{% if post.media == 'video'  %}
+{% include /video.html %}
+{% endif %}
 
-
+{% if post.media == 'img' %}
+{% include /image.html %}
+{% endif %}
 				<p>{{ post.content | strip_html | truncatewords: 25 }}</p>
 			</div>
 			<div class="item-social">
@@ -20,12 +23,10 @@
 					<div class="facebook" title="Поделиться в Facebook">Facebook</div>
 					<div class="twitter" title="Поделиться в twitter">Twitter</div>
 					<div class="telegram" title="Поделиться в telegram">Telegram</div>
-
 				</div>
 			</div>
 		</div>
 	</div>
-
 </section>
 
 

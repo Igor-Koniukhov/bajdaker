@@ -9,7 +9,7 @@ RewriteEngine On
 
 RewriteCond %{HTTP_HOST} .
 RewriteCond %{HTTP_HOST} www.bajdaker.com.ua [NC]
-RewriteRule (.*) https://kvinerdji.com.ua/$1 [R=301,L]
+RewriteRule (.*) https://bajdaker.com.ua/$1 [R=301,L]
 
 RewriteCond %{HTTP_USER_AGENT} wget [NC]
 RewriteRule .* - [F]

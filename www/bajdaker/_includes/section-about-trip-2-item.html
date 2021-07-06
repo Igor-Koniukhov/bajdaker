@@ -2,13 +2,13 @@
 	<div class="type-one__item type__one-item_position-1">
 		<div class="text">
 			<h3> {{ post.title }} </h3>
-			<div class="row"><span class="type-one__date"> дата: <b>{{ page.date | date: '%d' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%Y' }}</b></span>
+			<div class="row"><span class="type-one__date"> дата: <b>{{ post.date | date: '%d' }}/{{ post.date | date: '%m' }}/{{ post.date | date: '%Y' }}</b></span>
 				<div class="item-comments" title="Количество комментариев">
 					<a class="item-comments-count" href="{{ post.url }}#disqus_thread"></a>
 				</div>
 			</div>
 			<a class="overlay" href="{{ post.url }}"></a>
-			<img alt="image" class="img-float col-sm-6 img-responsiv"
+			<img alt="image" class="img-float col-sm-6 img-responsive"
 					src="{{ post.thumb }}">
 
 
